@@ -1,0 +1,25 @@
+#icon {
+	color: #777;
+	margin-right: 8px;
+}
+
+header {
+	font-family: 'Permanent Marker', cursive;
+}
+
+body { 
+	padding-bottom: 70px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../images/jumbotron.jpg");
+    background-color: #17234E;
+    margin-bottom: 0;
+    min-height: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
