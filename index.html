@@ -1,130 +1,949 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>James Leslie E-Portfolio</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Bodo - Simple One Page Personal" name="description">
+    <meta content="BdgPixel" name="author">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
 
-  <title>Home Page</title>
+    <!--styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/james.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-  
-  <header>
-    
-    <!-- Begin Navbar -->
-    <nav class="navbar navbar-default">
-
-      <div class="container-fluid">
-        
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brand</a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="photos.html">Photos<i class="fa fa-camera-retro" aria-hidden="true" style="float: right"></i></a></li>
-                <li><a href="videos.html">Videos<i class="fa fa-video-camera" aria-hidden="true" style="float: right"></i></a></li>
-                <li><a href="blog.html">Blog<i class="fa fa-pencil-square-o" aria-hidden="true" style="float: right"></i></a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          
-        </div><!-- /.navbar-collapse -->
-
-      </div><!-- /.container-fluid -->
-
-    </nav>
-    <!-- End Navbar -->
-
-  </header>
-
-  <!-- Begin Main Content -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1>Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-    </div>
-  </div>
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
       </div>
     </div>
+    <!--/.PRELOADER END-->
 
-    <hr>
-    <!-- End Main Content -->
-
-    <!-- Begin Footer -->
-    <footer>
-      <nav class="navbar navbar-default">
-        <div class="container">
-          
-          <div class="navbar-text pull-left">
-            <p>copyright 2017</p>
-          </div>
-
-          <div class="navbar-text pull-right">
-            <a id="icon" target="_blank" href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
-            <a id="icon" target="_blank" href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-            <a id="icon" target="_blank" href="https://www.youtube.com/channel/UCBjXwJABcS5ZPXMyncZdJOg"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
-          </div>
-
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo-big.png"></a>
         </div>
-      </nav>
-    </footer>
-    <!-- End Footer -->
+        <!--/.LOGO END-->
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home" class="active">
+              <span>Home</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>About</span>
+            </a>
+            <a data-scroll="" href="#work">
+              <span>Work</span>
+            </a>
+             <a data-scroll="" href="#services">
+              <span>Services</span>
+            </a>
+            <a data-scroll="" href="#employement">
+              <span>Employement</span>
+            </a>
+            <a data-scroll="" href="#skill">
+              <span>Skills</span>
+            </a>
+            <a data-scroll="" href="#education">
+              <span>Education</span>
+            </a>
+            <a data-scroll="" href="#testimonial">
+              <span>Testimonial</span>
+            </a>
+            <a data-scroll="" href="#blog">
+              <span>Blog</span>
+            </a>
+            <a data-scroll="" href="#contact">
+              <span>Contact</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        <!--HOME-->
+        <section id="home">
+          <div class="container">
+            <div class="row">
+              <div class="wrap-hero-content">
+                  <div class="hero-content">
+                    <h1>Hello</h1>
+                    <br>
+                    <span class="typed"></span>
+                  </div>
+              </div>
+              <div class="mouse-icon margin-20">
+                <div class="scroll"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.HOME END-->
+
+        <!--ABOUT-->
+        <section id="about">
+          <div class="col-md-6 col-xs-12 no-pad">
+            <div class="bg-about"></div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+            <div class="row">
+              <!--OWL CAROUSEL2-->
+              <div class="owl-carousel2">
+                <div class="col-md-12">
+                  <div class="wrap-about">
+                    <div class="w-content">
+                      <p class="head-about">
+                        I have created this web page as a space in which to express
+                        myself and provide others with a little glimpse into my life
+                        and who I am as a person.
+                      </p>
+                      <p>
+                        As a graduating honours student from the University of Cape
+                        Town with a B.Sc. in Geomatics Engineering, I am looking
+                        forward to moving onto the next chapter of learning in my
+                        life.
+                      </p>
+
+                      <h5 class="name">
+                        J.B. Leslie
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 white-col">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                      <div class="wrap-about">
+                        <table class="w-content">
+                          <tr>
+                            <td class="title">Name </td>
+                            <td class="break">:</td>
+                            <td> James Leslie</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Phone </td>
+                            <td class="break">:</td>
+                            <td> +27 72 836 1497</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Email </td>
+                            <td class="break">:</td>
+                            <td> jlesl09@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Address </td>
+                            <td class="break">:</td>
+                            <td> 6 Oleander Street, Somerset West, South Africa</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Skype </td>
+                            <td class="break">:</td>
+                            <td> jlesl09</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.OWL CAROUSEL2 END-->
+            </div>
+          </div>
+        </section>
+        <!--/.ABOUT END-->
+
+        <!--WORK-->
+        <section class="grey-bg mar-tm-10" id="work">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Work</span>
+                </h3>
+                <p class="content-detail">
+                  I have a wide range of experience in multiple fields. I have worked
+                  at summer camps both in the USA and in South Africa. I have experience
+                  working as a waiter, a barman, and a pizza delivery boy. All of these
+                  experiences have taught me the value of work and the reward that goes
+                  with it. <br><br> During my university years I have worked as a private
+                  tutor for high school mathematics and first-year university statistics
+                  students. It is through these experiences that I have gained a love
+                  for sharing knowledge and also confidence as a public speaker - my time
+                  tutoring statistics involved teaching weekly class for groups of 20-25
+                  students. <br><br> Additionally, I have completed numerous internships
+                  throughout the course of my degree. These internships involve working
+                  in the fields of land surveying, geographic information systems, and
+                  laser scanning &amp 3-D modelling. <br><br>
+                  <h4>This is as far as I have gotten...</h4>
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--PORTFOLIO IMAGE-->
+                <ul class="portfolio-image">
+                  <li class="col-md-6">
+                    <a target="_blank" href="images/james-cv.pdf"><img alt="image" src="images/bw-1.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                           <p class="desc">My Resume</p>
+                        </div>
+
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-2.png"><img alt="image" src="images/bw-2.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Pangirutan
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-3.png"><img alt="image" src="images/bw-3.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Black Mug
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-4.png"><img alt="image" src="images/bw-4.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Notebook Mockup
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Presentation
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Letter Branding
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!--/.PORTFOLIO IMAGE END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.WORK END-->
+
+        <!--SERVICES-->
+        <section class="white-bg" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Services</span>
+                </h3>
+                <p class="content-detail">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          c
+                        </h3>
+                        <p class="head-sm">
+                          MARKETING
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          b
+                        </h3>
+                        <p class="head-sm">
+                          WEB DESIGN
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          d
+                        </h3>
+                        <p class="head-sm">
+                          UI
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <p class="icon-use">
+                          f
+                        </p>
+                        <p class="head-sm">
+                          DIRECTOR
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          p
+                        </h3>
+                        <p class="head-sm">
+                          UX DESIGN
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          m
+                        </h3>
+                        <p class="head-sm">
+                          FRONT END
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SERVICES END-->
+
+        <!--EMPLOYEMENT-->
+        <section class="grey-bg" id="employement">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Employement</span>
+                </h3>
+                <p class="content-detail">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2007 - 2009
+                            </h2>
+                            <p class="job">
+                              web designer
+                            </p>
+                            <p class="company">
+                              Corp Project
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2009 - 2010
+                            </h2>
+                            <p class="job">
+                              web designer
+                            </p>
+                            <p class="company">
+                              Google inc
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2010 - 2014
+                            </h2>
+                            <p class="job">
+                              crative director
+                            </p>
+                            <p class="company">
+                              41 studio
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2014 - NOW
+                            </h2>
+                            <p class="job">
+                              fullstack designer
+                            </p>
+                            <p class="company">
+                              Freelance
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EMPLOYEMENT END-->
+
+        <!--SKILLS-->
+        <section class="white-bg" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Skills</span>
+                </h3>
+                <p class="content-detail">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--SKILLST-->
+                <div class="skillst">
+                  <div class="skillbar" data-percent="78%">
+                    <div class="title head-sm">
+                      HTML 5
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="91%">
+                    <div class="title head-sm">
+                      CSS 4
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="58%">
+                    <div class="title head-sm">
+                      jQuery
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="63%">
+                    <div class="title head-sm">
+                      PHP
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="95%">
+                    <div class="title head-sm">
+                      Photoshop
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                </div>
+                <!--/.SKILLST END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <!--EDUCATION-->
+        <section class="grey-bg" id="education">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Education</span>
+                </h3>
+                <p class="content-detail">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2002 - 2005
+                            </h2>
+                            <p class="job">
+                              Information System
+                            </p>
+                            <p class="company">
+                              Telkom University
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2005 - 2007
+                            </h2>
+                            <p class="job">
+                              DKV
+                            </p>
+                            <p class="company">
+                              UNIKOM
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2007 - 2009
+                            </h2>
+                            <p class="job">
+                              Magister DKV
+                            </p>
+                            <p class="company">
+                              ITB
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2009 - 2010
+                            </h2>
+                            <p class="job">
+                              Typhography Magister
+                            </p>
+                            <p class="company">
+                              Florida University
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EDUCATION END-->
+
+        <!--TESTIMONIAL-->
+        <section id="testimonial">
+          <div class="container">
+            <div class="row wrap-testimonial">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="owl-carousel">
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+                      </h3>
+                      <p class="people">
+                        Darin Cohen - Active10
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+                      </h3>
+                      <p class="people">
+                        Marko Milicevic
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-testimonial">
+                    <div class="content-testimonial">
+                      <h3 class="testi">
+                        “ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+                      </h3>
+                      <p class="people">
+                        JK Thang
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mask-testimonial"></div>
+        </section>
+        <!--/.TESTMONIAL END-->
+
+        <!--BLOG-->
+        <section class="grey-bg" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small-center text-center">
+                  <span>Blog</span>
+                </h3>
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <p class="content-details text-center">
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+                    </p>
+                  </div>
+                </div>
+                <!--GRID BLOG-->
+                <div class="grid">
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog-1" class="img-circle text-center" src="images/blog-1.png">
+                      <p class="subtitle fancy">
+                        <span>09/01/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          Popular Design in 2015
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                     <img alt="blog-4" class="img-circle text-center" src="images/blog-4.jpg">
+                     <p class="subtitle fancy">
+                        <span>08/20/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          Just Start
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog6" class="img-circle text-center" src="images/blog-6.jpg">
+                      <p class="subtitle fancy">
+                        <span>08/11/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          The Huffington Post
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog2" class="img-circle text-center" src="images/blog-2.jpg">
+                      <p class="subtitle fancy">
+                        <span>08/03/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          Manuk!
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog5" class="img-circle text-center" src="images/blog-5.jpg">
+                      <p class="subtitle fancy">
+                        <span>07/26/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          Do Web Designer Really Need To Know UI/UX Design and Backend Code too?
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog-3" class="img-circle text-center" src="images/blog-3.jpg">
+                      <p class="subtitle fancy">
+                        <span>08/03/2015</span>
+                      </p>
+                      <a href="#">
+                        <h3 class="title">
+                          Somewhere Place
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <!--/.GRID BLOG END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.BLOG END-->
+
+        <!--CONTACT-->
+        <section id="contact" class="white-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Contact</span>
+                </h3>
+                <p class="content-detail">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </p>
+
+              </div>
+              <div class="col-md-9 content-right">
+                <form>
+                  <div class="group">
+                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                  </div>
+                  <div class="group">
+                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                  </div>
+                  <div class="group">
+                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
+                  </div>
+                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.CONTACT END-->
+
+        <!--FOOTER-->
+        <footer>
+          <div class="footer-top">
+            <ul class="socials">
+              <li class="facebook">
+                <a href="#" data-hover="Facebook">Facebook</a>
+              </li>
+              <li class="twitter">
+                <a href="#" data-hover="Twitter">Twitter</a>
+              </li>
+              <li class="gplus">
+                <a href="#" data-hover="Google +">Google +</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+      </div>
+    <!--/.CONTENT-WRAP END-->
+    </div>
+
+
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.appear.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/masonry.js" type="text/javascript"></script>
+    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
   </body>
-  </html>
+</html>
