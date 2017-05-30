@@ -913,6 +913,7 @@ ul.portfolio-image li .desc{
 }
 .bg-about {
   background: url('../images/james.jpg');
+	background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1187,17 +1188,17 @@ ul.portfolio-image li .desc{
 .facebook a:after{
   background-color: #527bbb;
 }
-.twitter{
+.instagram{
   background: #ABABAB;
 }
-.twitter a:after{
-  background-color: #77ccf1;
+.instagram a:after{
+  background-color: #800080;
 }
-.gplus{
-  background: #d8d8d8;
+.linkedin{
+  background: #969696;
 }
-.gplus a:after{
-  background: #dd4b39;
+.linkedin a:after{
+  background: #527bbb;
 }
 
 .footer-bottom{
