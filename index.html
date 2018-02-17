@@ -423,24 +423,17 @@
 
               </div>
               <div class="col-md-9 content-right">
-                <form method="post" action="sendmail.php">
+                <form method="POST" action="https://formspree.io/jlesl09@gmail.com">
                   <div class="group">
-                    <!-- <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label> -->
-                    <input id="name" name="name" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                    <input required="" name="name" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
                   <div class="group">
-                    <!-- <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label> -->
-                    <input id="email" name="email" type="text"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                    <input required="" name="_replyto" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
                   </div>
                   <div class="group">
-                    <input id="subject" name="subject" type="text"><span class="highlight"></span><span class="bar"></span><label>Subject</label>
+                    <textarea required="" name="message"></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
                   </div>
-                  <div class="group">
-                    <!-- <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label> -->
-                    <textarea id="message" name="message"></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
-                  </div>
-                  <!-- <input id="sendMessage" name="sendMessage" type="submit" value="Send Message"> -->
-                  <input id="submit" type="submit" value="Send Message">
+                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
                 </form>
               </div>
             </div>
