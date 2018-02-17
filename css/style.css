@@ -618,10 +618,10 @@ ul.portfolio-image li:hover {
   cursor: pointer;
 }
 ul.portfolio-image li:hover img {
-  -webkit-filter: grayscale(20%);
+  -webkit-filter: grayscale(18%);
   transform: scale(1.15);
 }
-ul.portfolio-image li:hover .image-bg {opacity: 1;}
+ul.portfolio-image li:hover .image-bg {opacity: 0.4;}
 ul.portfolio-image li:hover .description-wrap {
   background: rgba(186, 186, 186, 0.6);
 }
